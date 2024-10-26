@@ -1,0 +1,82 @@
+body {
+    font-family: 'Georgia', serif; /* Use a serif font for a classic look */
+    background-color: #f4f4e1; /* Light beige background for a vintage feel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 40px; /* Increased padding for a larger box */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border: 2px solid #d0c6b5; /* Light border for a vintage look */
+    max-width: 95%; /* Allow more width on larger screens */
+    width: 500px; /* Set a new max width for the container */
+}
+
+h1 {
+    font-size: 2.5rem; /* Increased font size for the heading */
+    font-weight: bold; /* Makes the text bold */
+    font-style: italic; /* Makes the text italic */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #7a4b3a; /* Dark brown color for the heading */
+    text-shadow: 1px 1px 0 #eae6d2; /* Soft shadow effect */
+}
+
+.quote {
+    font-size: 1.7rem; /* Increased font size for the quote */
+    font-style: italic;
+    margin: 20px 0;
+    color: #5c4f4e; /* Darker shade for the quote text */
+    padding: 15px; /* Increased padding for the quote */
+    border-left: 4px solid #7a4b3a; /* Left border for styling */
+    background-color: #f9f3e4; /* Light background for quotes */
+    border-radius: 5px; /* Rounded corners for the quote */
+}
+
+.author {
+    font-size: 1.5rem; /* Increased font size for the author */
+    color: #8b6f63; /* Lighter brown color for the author text */
+}
+
+button {
+    background-color: #7a4b3a; /* Dark brown button */
+    color: white; /* White button text */
+    border: none; /* No border */
+    border-radius: 5px;
+    padding: 12px 24px; /* Adjusted padding for the button */
+    cursor: pointer;
+    font-size: 1.2rem; /* Increased font size for the button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-family: 'Georgia', serif; /* Use the same font for the button */
+    width: 100%; /* Button takes full width on small screens */
+}
+
+button:hover {
+    background-color: #9c6c60; /* Lighter brown on hover */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem; /* Smaller font size for heading */
+    }
+
+    .quote {
+        font-size: 1.5rem; /* Smaller font size for quotes */
+    }
+
+    .author {
+        font-size: 1.2rem; /* Smaller font size for author */
+    }
+
+    button {
+        padding: 10px; /* Adjust padding for the button */
+        font-size: 1rem; /* Smaller font size for button */
+    }
+}
